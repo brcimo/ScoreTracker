@@ -12,12 +12,12 @@
 @class PlayerControls;
 
 
-@interface ViewController : UIViewController 
+@interface ViewController : UIViewController
 {
-    PlayerControls *playerController1;
-    PlayerControls *playerController2;
-    PlayerControls *playerController3;
-    PlayerControls *playerController4;
+	PlayerControls *playerController1;
+	PlayerControls *playerController2;
+	PlayerControls *playerController3;
+	PlayerControls *playerController4;
 }
 
 @property (strong, nonatomic) IBOutlet UISegmentedControl *numPlayerSegment;

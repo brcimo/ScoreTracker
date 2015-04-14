@@ -10,7 +10,7 @@
 
 @interface PlayerControls : UIViewController
 {
-    NSInteger Score;
+	NSInteger Score;
 }
 
 @property (strong, nonatomic) IBOutlet UITextField *playname;
